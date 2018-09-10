@@ -1,0 +1,305 @@
+/* My Repeatable Style properties ==> {Main Rules} */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.updown-padding {
+  padding: 60px 0;
+}
+.title-sec {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.title-sec:after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 3px;
+    background-color: #ec1c23;
+    margin: 20px auto;
+}
+.mb-4 {
+  margin-bottom: 2.5rem !important;
+}
+/* End My Main Rules */
+
+/* Start Loader Page Style */
+.loader{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color:#08526d;
+}
+.loader .loader-wrapper{
+	font-size: 60px;
+	font-weight: 200;
+	color: white;
+  letter-spacing: 20px;
+  line-height: 100vh;
+}
+/*End Loader Page Style */
+
+/* Start Navbar Style*/
+.navbar-brand > span {
+  font-size: 36px;
+}
+.navbar-brand span:first-child {
+  color: #08526d;
+  font-weight: bold;
+}
+.navbar-brand span:last-child {
+  color: #ec1c23;
+}
+.navbar-nav .nav-link {
+  font-size: 20px;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: #08526d !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+  color:  #ec1c23 !important;
+}
+.navbar-nav .active > .nav-link {
+  color: #ec1c23 !important;
+}
+
+/* Start Header Style*/
+header .head-main {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  background: url(../img/bg.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header .head-main .pattern {
+  background: url(../img/noise.png) repeat center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.header .head-main .heading {
+	padding-top: 25vh;
+  padding-bottom: 0px;
+}
+.header .head-main .heading #typing-effect {
+	display: inline;
+	font-size: 78px;
+	font-weight: 800;
+	color: white;
+}
+.header .head-main .heading span {
+	display: inline;
+  font-size: 78px;
+	font-weight: 100;
+  color: white;
+}
+@media (max-width: 768px) {
+  .header .head-main .heading #typing-effect,
+  .header .head-main .heading span {
+    font-size: 48px;
+  }
+}
+header .fb-btn {
+  background-color: #38519f;
+  border-color: #38519f;
+}
+header .git-btn {
+  background-color: #666666;
+  border-color: #666666;
+}
+header .linked-btn {
+  background-color: #044a75;
+  border-color: #044a75;
+}
+
+/* Start About Me Style */
+.about .head-me {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: none;
+  text-align: left;
+}
+.about .head-me span {
+  font-weight: 700;
+  color: #C30000;
+}
+.about .key-skills ul {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.about .key-skills ul li {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #828282;
+  width: 45%;
+  margin-top: 19px;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #c6c6c6;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+  -o-box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.about .key-skills ul li:hover {
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #C30000;
+  -webkit-box-shadow: 0 12px 24px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 12px 24px rgba(0, 0, 0, .25);
+  -o-box-shadow: 0 12px 24px rgba(0, 0, 0, .25);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, .25);
+}
+
+/* Start Portfolio Style */
+.portfolio .img-content {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+  -o-box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+}
+.portfolio .img-content .overlay {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width:100%;
+  height: 100%;
+  border: 3px solid #C30000;
+	background-color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: right 0.3s ease;
+  -moz-transition: right 0.3s ease;
+  -o-transition: right 0.3s ease;
+  transition: right 0.3s ease;
+}
+.portfolio .img-content:hover .overlay {
+  position: absolute;
+  top: 0;
+	right: 0;
+	cursor: pointer;
+}
+.portfolio .img-content .overlay p {
+  position: absolute;
+  top: 0;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.portfolio .img-content:hover .overlay p {
+  font-size: 20px;
+	letter-spacing: 5px;
+  top: 40%;
+}
+.portfolio .project-dialog ul {
+  width: 100%;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.portfolio .project-dialog ul li{
+  display: inline-block;
+  padding: 0 5px;
+  margin: 5px auto;
+  border: 2px solid #08526d;
+  border-radius: 5px;
+  background-color: #08526d;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.portfolio .project-dialog button {
+  text-align: center;
+  text-transform: uppercase;x
+}
+
+/* Start Skills Style */
+.skills {
+  background-color: #f7f7f7;
+ }
+.skills .head-title{
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.skills .head-title:after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 3px;
+    background-color: #08526d;
+    margin: 10px 0;
+}
+.skills .prog-tit {
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 2px;
+ }
+
+ /* Start Contact Me Style */
+.contact {
+  background-color: #f7f7f7;
+}
+.contact .stat-box {
+  margin-bottom: 32px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border: .5px solid #c9c9c9;
+  border-radius: 20px;
+}
+.contact .stat-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+.contact .stat-box i {
+  color: #08526d;
+}
+.contact .stat-box p {
+  color: #ec1c23;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+/* Start Footer Style */
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  background-color: #f7f7f7;
+}
+footer p {
+  font-weight: bold !important;
+  letter-spacing: 1px
+}
+footer p span {
+  color: #ec1c23;
+}
