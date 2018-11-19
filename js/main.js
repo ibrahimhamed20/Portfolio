@@ -14,7 +14,7 @@ $(function () {
   });
 
   $("#typing-effect").typed({
-    strings: ["I'm Ibrahim Hamed", "I'm Front End Developer"],//Change Page Heading Here
+    strings: ["I'm Ibrahim Hamed", "Front End Developer"],//Change Page Heading Here
     typeSpeed: 30,
 		backSpeed: 30,
     loop:true,
